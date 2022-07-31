@@ -1,0 +1,46 @@
+; COSIDLL.def : Declares the module parameters for the DLL.
+
+LIBRARY      "COSIDLL"
+DESCRIPTION  'COSIDLL Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	
+	_Name						@2
+	_Version					@3
+	_DecompressSector			@4
+	_CompressSector				@5			  
+	CloseFiles					@6
+	SetFiles					@7
+	SetFilesShort				@8
+	GetModeFileName				@9
+	GetDataFileName				@10
+	ReadFileSector				@11
+	SeekFileSector				@12
+	SeekFilePosition			@13
+	GetFileCurrentPosition		@14
+	GetFileCurrentSector		@15
+	InitCOSI					@16
+	DeInitCOSI					@17
+	Set_FileRead				@18
+	SkipReadFileSector			@19
+
+	PSEgetLibName				@20
+	PSEgetLibType				@21
+	PSEgetLibVersion			@22
+	CDRinit						@23
+	CDRshutdown					@24
+	CDRopen						@25
+	CDRclose					@26
+	CDRtest						@27
+	CDRgetTN					@28
+	CDRgetTD					@29
+	CDRreadTrack				@30
+	CDRgetBuffer				@31
+	CDRgetBufferSub				@32
+	CDRplay						@33
+	CDRstop						@34
+	CDRgetDriveLetter			@35
+	CDRconfigure				@36
+	CDRabout					@37
+	CDRgetStatus				@38

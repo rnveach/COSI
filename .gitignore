@@ -1,0 +1,16 @@
+# Eclipse
+
+/.metadata/
+/RemoteSystemsTempFiles/
+
+# generated
+
+/COSI/Debug/
+/COSI/Release/
+/COSIDLL/Debug/
+/COSIDLL/Release/
+
+*.APS
+*.clw
+*.ncb
+*.opt
